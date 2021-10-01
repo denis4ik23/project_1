@@ -40,6 +40,6 @@ public class Main {
                 (delt % 86400000) / 3600000,
                 (delt % 3600000) / 60000);
 
-        System.out.println(result);
+        System.out.println(result);// вывод
     }
 }
