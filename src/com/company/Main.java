@@ -26,7 +26,7 @@ public class Main {
         DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("yyyy-MM-dd");//берем текущею дату без времени
         String formatDateTime1 = timeNow.format(formatter1);// переводим в строку
         String formatDateTime2 = formatDateTime1 + " 10:50";// прибавляем к дню нужное время
-        String formatDateTime3 = formatDateTime1 + " 11:45";
+        String formatDateTime3 = formatDateTime1 + " 11:45";// пока не добавлены
         String formatDateTime4 = formatDateTime1 + " 12:40";
         String formatDateTime5 = formatDateTime1 + " 13:30";
 
